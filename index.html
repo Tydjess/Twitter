@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="fichier.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Twitter Lite</title>
-    <style>
-      body {
-        background-color: black;
-      }
-    </style>
-    <style>
-      body {
-        color: white;
-      }
-    </style>
-  </head>
 
-  <body>
-    <header>
-      <div id="MENU DE GAUCHE" .class="Section">
-        <h1>j'aime le pain</h1>
-      </div>
-    </header>
+<head>
+  <link rel="stylesheet" href="fichier.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Twitter Lite</title>
+  <style>
+    body {
+      background-color: black;
+    }
+  </style>
+  <style>
+    body {
+      color: white;
+    }
+  </style>
+</head>
 
-    <main>
-      <div id="fil d'actu" .class="Section">
-        <div>
-          <h1><b>Home</b></h1>
-        </div>
+<body>
+  <header>
+    <div id="MENU DE GAUCHE" .class="Section">
+      <h1>j'aime le pain</h1>
+    </div>
+  </header>
+
+  <main>
+    <div id="fil d'actu" .class="Section">
+      <div>
+        <h1><b>Home</b></h1>
       </div>
-    </main>
-    <div id="TENDANCE" .class="Section"></div>
-  </body>
+    </div>
+  </main>
+
+
+  <div id="tendance" .class="Section">
+
+    <form id="searchbox" method="get" action="/search" autocomplete="off">
+
+      <input name="q" type="text" size="15" placeholder="Enter keywords here…" />
+
+    </form>
+
+  </div>
+</body>
+
 </html>
