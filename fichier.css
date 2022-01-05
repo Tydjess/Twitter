@@ -1,6 +1,17 @@
 body {
   display: grid;
   grid-template-columns: 2fr 4fr 3fr;
+  border-color: white;
   border: 5px;
   color: white;
+  margin: 0%;
+}
+
+h1 {
+  font-family: "Gill Sans Extrabold", sans-serif;
+}
+#fil\ d\'actu {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-auto-rows: auto;
 }
