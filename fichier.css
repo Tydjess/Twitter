@@ -10,8 +10,46 @@ body {
 h1 {
   font-family: "Gill Sans Extrabold", sans-serif;
 }
-#fil\ d\'actu {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-auto-rows: auto;
+#fil\d\actu {
+  margin: 0%;
+}
+.picture.icon {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  border: solid 1px currentColor;
+}
+
+.picture.icon:before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  border: solid 1px currentColor;
+}
+
+.picture.icon:after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 9px;
+  width: 12px;
+  height: 8px;
+  border-top: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.respond {
+  padding: 10em 3em 1em;
+}
+#controls {
+  padding: 0em 3em 0em;
 }
