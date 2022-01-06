@@ -8,6 +8,10 @@ h1 {
 #controls {
   padding: 0em 3em 0em;
 }
+#icons {
+  display: flex;
+  align-content: space-between;
+}
 .picture.icon {
   color: rgb(255, 255, 255);
   position: relative;
