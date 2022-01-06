@@ -56,7 +56,37 @@ input:focus::-moz-placeholder {
 #tend {
   border: 3px white solid;
   padding: 3em;
-  margin: 5em;
+  margin: 3em;
   font-size: 1.5em;
   border-radius: 30px;
+
+  width: fit-content;
+}
+
+#suggestion {
+  border: 3px white solid;
+  padding: 2em;
+  margin: 1em;
+  font-size: 1.5em;
+  border-radius: 30px;
+
+  width: fit-content;
+}
+
+.compte {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.pp {
+  border: solid white;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+
+  display: flex;
 }
