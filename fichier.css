@@ -6,6 +6,7 @@ body {
 }
 #tendance {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -50,4 +51,10 @@ input:focus::-moz-placeholder {
   border-width: 0px;
   width: 43px;
   height: 45px;
+}
+
+#tend {
+  border: 3px white solid;
+  padding: 3em;
+  margin: 5em;
 }
