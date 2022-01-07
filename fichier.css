@@ -32,11 +32,11 @@ input:focus::-moz-placeholder {
   border: 2px solid #f2f2f2;
   font: bold 12px Arial, Helvetica, Sans-serif;
   color: #6a6f75;
-  width: 160px;
+  width: 250px;
   padding: 14px 17px 12px 30px;
   -webkit-border-radius: 5px 0px 0px 5px;
   -moz-border-radius: 5px 0px 0px 5px;
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 25px;
   text-shadow: 0 2px 3px #fff;
   -webkit-transition: all 0.7s ease 0s;
   -moz-transition: all 0.7s ease 0s;
@@ -89,4 +89,20 @@ input:focus::-moz-placeholder {
   border-radius: 50%;
 
   display: flex;
+}
+
+#bleu {
+  background-color: turquoise;
+}
+
+#rouge {
+  background-color: tomato;
+}
+
+#jaune {
+  background-color: yellow;
+}
+
+.arobase {
+  color: #58626e;
 }
