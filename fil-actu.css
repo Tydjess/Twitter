@@ -9,9 +9,12 @@ body {
 body {
   color: white;
 }
-
+#tweet {
+  display: flex;
+  align-content: flex-end;
+}
 .respond {
-  padding: 1em 3em 1em;
+  padding: 0em 1.2em 0em;
 }
 #controls {
   padding: 0em 3em 0em;
