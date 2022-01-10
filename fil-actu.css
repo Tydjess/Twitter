@@ -32,6 +32,9 @@ body {
 #cdq {
   padding: 1em 3em 1em;
 }
+#tweet {
+  display: flex;
+}
 .picture.icon {
   color: rgb(255, 255, 255);
   position: relative;
