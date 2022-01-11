@@ -11,7 +11,6 @@ body {
 }
 #tweet {
   display: flex;
-  align-content: flex-end;
 }
 .respond {
   padding: 0em 1.2em 0em;
