@@ -8,10 +8,21 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 }
+body {
+  background-color: black;
+}
+
+body {
+  color: white;
+}
 h1 {
   font-family: "Gill Sans Extrabold", sans-serif;
 }
-
+#iconsgroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .respond {
   padding: 1em 3em 1em;
 }

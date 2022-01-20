@@ -22,8 +22,6 @@ body {
 #icons {
   display: flex;
   align-items: center;
-  justify-content: center;
-  justify-content: start;
   padding: 1em 3em 1em;
 }
 #icons2 {
